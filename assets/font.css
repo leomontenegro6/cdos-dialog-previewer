@@ -1,0 +1,175 @@
+#text-window span.block {
+  display: block;
+  width: 256px;
+  height: 80px;
+  background: url('block.png');
+  background-repeat: no-repeat;
+  line-height: 1.09;
+  margin-bottom: 5px;
+}
+
+#text-window span.block span.letters {
+  position: relative;
+  top: 28px;
+  left: 19px;
+}
+
+#text-window span.block span.letter {
+  display: inline-block;
+  width: 8px;
+  height: 12px;
+  background: url('font.png');
+  background-position: 0 0;
+}
+
+#text-window span.block span.letters span.letter.space{ width: 4px; background-position: 0 0; }
+#text-window span.block span.letters span.letter.exclamation{ width: 2px; background-position: -8px -2px; }
+#text-window span.block span.letters span.letter.double-quotes{ width: 4px; background-position: -16px 0; }
+#text-window span.block span.letters span.letter.hashtag{ width: 7px; background-position: -24px 0; }
+#text-window span.block span.letters span.letter.money-sign{ width: 6px; background-position: -32px 0; }
+#text-window span.block span.letters span.letter.percent{ width: 8px; background-position: -40px 0; }
+#text-window span.block span.letters span.letter.ampersand{ width: 6px; background-position: -48px 0; }
+#text-window span.block span.letters span.letter.quotes{ width: 3px; background-position: -56px 0; }
+#text-window span.block span.letters span.letter.open-parenthesis{ width: 4px; background-position: -64px 0; }
+#text-window span.block span.letters span.letter.close-parenthesis{ width: 4px; background-position: -72px 0; }
+#text-window span.block span.letters span.letter.asterisk{ width: 6px; background-position: -80px 0; }
+#text-window span.block span.letters span.letter.plus{ width: 6px; background-position: -88px 0; }
+#text-window span.block span.letters span.letter.comma{ width: 3px; background-position: -96px 0; }
+#text-window span.block span.letters span.letter.minus{ width: 6px; background-position: -104px -1px; }
+#text-window span.block span.letters span.letter.dot{ width: 3px; background-position: -112px 0; }
+#text-window span.block span.letters span.letter.slash{ width: 6px; background-position: -120px 0; }
+
+#text-window span.block span.letters span.letter.n0{ width: 6px; background-position: 0 -14px; }
+#text-window span.block span.letters span.letter.n1{ width: 4px; background-position: -8px -14px; }
+#text-window span.block span.letters span.letter.n2{ width: 6px; background-position: -16px -14px; }
+#text-window span.block span.letters span.letter.n3{ width: 6px; background-position: -24px -14px; }
+#text-window span.block span.letters span.letter.n4{ width: 6px; background-position: -32px -14px; }
+#text-window span.block span.letters span.letter.n5{ width: 6px; background-position: -40px -14px; }
+#text-window span.block span.letters span.letter.n6{ width: 6px; background-position: -48px -14px; }
+#text-window span.block span.letters span.letter.n7{ width: 6px; background-position: -56px -14px; }
+#text-window span.block span.letters span.letter.n8{ width: 6px; background-position: -64px -14px; }
+#text-window span.block span.letters span.letter.n9{ width: 6px; background-position: -72px -14px; }
+#text-window span.block span.letters span.letter.colon{ width: 3px; background-position: -80px -14px; }
+#text-window span.block span.letters span.letter.semicolon{ width: 3px; background-position: -88px -14px; }
+#text-window span.block span.letters span.letter.less-than{ width: 5px; background-position: -96px -14px; }
+#text-window span.block span.letters span.letter.equal{ width: 5px; background-position: -104px -14px; }
+#text-window span.block span.letters span.letter.greater-than{ width: 5px; background-position: -112px -14px; }
+#text-window span.block span.letters span.letter.interrogation{ width: 6px; background-position: -120px -14px; }
+
+#text-window span.block span.letters span.letter.at-sign{ width: 9px; background-position: 0 -27px; }
+#text-window span.block span.letters span.letter.A{ width: 6px; background-position: -8px -27px; }
+#text-window span.block span.letters span.letter.B{ width: 6px; background-position: -16px -27px; }
+#text-window span.block span.letters span.letter.C{ width: 6px; background-position: -24px -27px; }
+#text-window span.block span.letters span.letter.D{ width: 6px; background-position: -32px -27px; }
+#text-window span.block span.letters span.letter.E{ width: 6px; background-position: -40px -27px; }
+#text-window span.block span.letters span.letter.F{ width: 6px; background-position: -48px -27px; }
+#text-window span.block span.letters span.letter.G{ width: 6px; background-position: -56px -27px; }
+#text-window span.block span.letters span.letter.H{ width: 6px; background-position: -64px -27px; }
+#text-window span.block span.letters span.letter.I{ width: 4px; background-position: -72px -27px; }
+#text-window span.block span.letters span.letter.J{ width: 6px; background-position: -80px -27px; }
+#text-window span.block span.letters span.letter.K{ width: 6px; background-position: -88px -27px; }
+#text-window span.block span.letters span.letter.L{ width: 6px; background-position: -96px -27px; }
+#text-window span.block span.letters span.letter.M{ width: 8px; background-position: -104px -27px; }
+#text-window span.block span.letters span.letter.N{ width: 6px; background-position: -112px -27px; }
+#text-window span.block span.letters span.letter.O{ width: 6px; background-position: -120px -27px; }
+
+#text-window span.block span.letters span.letter.P{ width: 6px; background-position: 0 -40px; }
+#text-window span.block span.letters span.letter.Q{ width: 7px; background-position: -8px -40px; }
+#text-window span.block span.letters span.letter.R{ width: 6px; background-position: -16px -40px; }
+#text-window span.block span.letters span.letter.S{ width: 6px; background-position: -24px -40px; }
+#text-window span.block span.letters span.letter.T{ width: 6px; background-position: -32px -40px; }
+#text-window span.block span.letters span.letter.U{ width: 6px; background-position: -40px -40px; }
+#text-window span.block span.letters span.letter.V{ width: 6px; background-position: -48px -40px; }
+#text-window span.block span.letters span.letter.W{ width: 8px; background-position: -56px -40px; }
+#text-window span.block span.letters span.letter.X{ width: 6px; background-position: -64px -40px; }
+#text-window span.block span.letters span.letter.Y{ width: 6px; background-position: -72px -40px; }
+#text-window span.block span.letters span.letter.Z{ width: 6px; background-position: -80px -40px; }
+#text-window span.block span.letters span.letter.open-square-brackets{ width: 4px; background-position: -88px -40px; }
+#text-window span.block span.letters span.letter.backslash{ width: 6px; background-position: -96px -40px; }
+#text-window span.block span.letters span.letter.close-square-brackets{ width: 4px; background-position: -104px -40px; }
+#text-window span.block span.letters span.letter.circumflex{ width: 6px; background-position: -112px -40px; }
+#text-window span.block span.letters span.letter.underscore{ width: 6px; background-position: -120px -40px; }
+
+#text-window span.block span.letters span.letter.acute{ width: 3px; background-position: 0 -53px; }
+#text-window span.block span.letters span.letter.a{ width: 6px; background-position: -8px -53px; }
+#text-window span.block span.letters span.letter.b{ width: 6px; background-position: -16px -53px; }
+#text-window span.block span.letters span.letter.c{ width: 6px; background-position: -24px -53px; }
+#text-window span.block span.letters span.letter.d{ width: 6px; background-position: -32px -53px; }
+#text-window span.block span.letters span.letter.e{ width: 6px; background-position: -40px -53px; }
+#text-window span.block span.letters span.letter.f{ width: 5px; background-position: -48px -53px; }
+#text-window span.block span.letters span.letter.g{ width: 6px; background-position: -56px -53px; }
+#text-window span.block span.letters span.letter.h{ width: 6px; background-position: -64px -53px; }
+#text-window span.block span.letters span.letter.i{ width: 2px; background-position: -72px -53px; }
+#text-window span.block span.letters span.letter.j{ width: 6px; background-position: -80px -53px; }
+#text-window span.block span.letters span.letter.k{ width: 6px; background-position: -88px -53px; }
+#text-window span.block span.letters span.letter.l{ width: 3px; background-position: -96px -53px; }
+#text-window span.block span.letters span.letter.m{ width: 8px; background-position: -104px -53px; }
+#text-window span.block span.letters span.letter.n{ width: 6px; background-position: -112px -53px; }
+#text-window span.block span.letters span.letter.o{ width: 6px; background-position: -120px -53px; }
+
+#text-window span.block span.letters span.letter.p{ width: 6px; background-position: 0 -66px; }
+#text-window span.block span.letters span.letter.q{ width: 6px; background-position: -8px -66px; }
+#text-window span.block span.letters span.letter.r{ width: 5px; background-position: -16px -66px; }
+#text-window span.block span.letters span.letter.s{ width: 6px; background-position: -24px -66px; }
+#text-window span.block span.letters span.letter.t{ width: 5px; background-position: -32px -66px; }
+#text-window span.block span.letters span.letter.u{ width: 6px; background-position: -40px -66px; }
+#text-window span.block span.letters span.letter.v{ width: 6px; background-position: -48px -66px; }
+#text-window span.block span.letters span.letter.w{ width: 8px; background-position: -56px -66px; }
+#text-window span.block span.letters span.letter.x{ width: 6px; background-position: -64px -66px; }
+#text-window span.block span.letters span.letter.y{ width: 6px; background-position: -72px -66px; }
+#text-window span.block span.letters span.letter.z{ width: 6px; background-position: -80px -66px; }
+#text-window span.block span.letters span.letter.open-curly-brackets{ width: 5px; background-position: -88px -66px; }
+#text-window span.block span.letters span.letter.pipe{ width: 2px; background-position: -96px -66px; }
+#text-window span.block span.letters span.letter.close-curly-brackets{ width: 5px; background-position: -104px -66px; }
+#text-window span.block span.letters span.letter.tilde{ width: 7px; background-position: -112px -66px; }
+#text-window span.block span.letters span.letter.middot{ width: 3px; background-position: -120px -66px; }
+
+#text-window span.block span.letters span.letter.A-grave{ width: 6px; background-position: -88px -79px; }
+#text-window span.block span.letters span.letter.A-acute{ width: 6px; background-position: -96px -79px; }
+#text-window span.block span.letters span.letter.A-circumflex{ width: 6px; background-position: -112px -79px; }
+#text-window span.block span.letters span.letter.A-tilde{ width: 6px; background-position: -120x -79px; }
+
+#text-window span.block span.letters span.letter.C-cedilla{ width: 6px; background-position: -16px -92px; }
+#text-window span.block span.letters span.letter.E-acute{ width: 6px; background-position: -32px -92px; }
+#text-window span.block span.letters span.letter.E-circumflex{ width: 6px; background-position: -40px -92px; }
+#text-window span.block span.letters span.letter.I-acute{ width: 3px; background-position: -64px -92px; }
+#text-window span.block span.letters span.letter.O-grave{ width: 6px; background-position: -104px -92px; }
+#text-window span.block span.letters span.letter.O-acute{ width: 6px; background-position: -112px -92px; }
+#text-window span.block span.letters span.letter.O-circumflex{ width: 6px; background-position: -120px -92px; }
+
+#text-window span.block span.letters span.letter.O-tilde{ width: 6px; background-position: 0 -105px; }
+#text-window span.block span.letters span.letter.U-acute{ width: 6px; background-position: -40px -105px; }
+#text-window span.block span.letters span.letter.U-diaeresis{ width: 6px; background-position: -56px -105px; }
+#text-window span.block span.letters span.letter.a-grave{ width: 6px; background-position: -80px -105px; }
+#text-window span.block span.letters span.letter.a-acute{ width: 6px; background-position: -88px -105px; }
+#text-window span.block span.letters span.letter.a-circumflex{ width: 6px; background-position: -96px -105px; }
+#text-window span.block span.letters span.letter.a-tilde{ width: 6px; background-position: -104px -105px; }
+
+#text-window span.block span.letters span.letter.c-cedilla{ width: 6px; background-position: -8px -118px; }
+#text-window span.block span.letters span.letter.e-acute{ width: 6px; background-position: -24px -118px; }
+#text-window span.block span.letters span.letter.e-circumflex{ width: 6px; background-position: -32px -118px; }
+#text-window span.block span.letters span.letter.i-acute{ width: 3px; background-position: -56px -118px; }
+#text-window span.block span.letters span.letter.o-grave{ width: 6px; background-position: -96px -118px; }
+#text-window span.block span.letters span.letter.o-acute{ width: 6px; background-position: -104px -118px; }
+#text-window span.block span.letters span.letter.o-circumflex{ width: 6px; background-position: -112px -118px; }
+#text-window span.block span.letters span.letter.o-tilde{ width: 6px; background-position: -120px -118px; }
+
+#text-window span.block span.letters span.letter.u-acute{ width: 6px; background-position: -32px -131px; }
+#text-window span.block span.letters span.letter.u-diaeresis{ width: 6px; background-position: -48px -131px; }
+
+#text-window span.block span.letters span.letter.unknown{
+  width: 8px !important;
+  background-position: 0 0 !important;
+  margin-right: 1px;
+  position: relative;
+}
+#text-window span.block span.letters span.letter.unknown:after {
+  background: darkseagreen;
+  color: black;
+  content: 'X';
+  position: absolute;
+  top: 1px;
+  left: 0;
+  border: 1px solid black;
+  font-size: 10px;
+}
