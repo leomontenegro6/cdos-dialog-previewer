@@ -1,3 +1,5 @@
+> **Extensão depreciada:** este projeto foi substituído pelo [game-dialog-previewer](https://github.com/leomontenegro6/game-dialog-previewer), que reúne os previewers suportados atualmente.
+
 # cdos-dialog-previewer
 
 Essa é uma extensão do VSCode que permite pré-visualizar scripts do jogo "Castlevania Dawn of Sorrow", desde que eles estejam no formato CSV exportado pela ferramenta [DSVania Editor](https://www.romhacking.net/utilities/1271/), criada por LagoLunatic.
